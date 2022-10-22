@@ -103,3 +103,4 @@
 	    }
 
 17. Having the following DB tables diagram:
+![](https://github.com/lentyaishe/masa-exam/blob/dev/resources/db-relations.jpg)
