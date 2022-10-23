@@ -46,7 +46,7 @@ router.use((req, res, next) => {
 
 /** Server */
 const httpServer = http.createServer(router);
-const PORT: any = process.env.PORT ?? 6666;
+const PORT: any = process.env.PORT ?? 7777;
 httpServer.listen(
     PORT,
     () => {
