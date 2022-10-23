@@ -4,31 +4,31 @@
 // class DateData {
 //     public static addMonths(date: Date, value: number): Date {
 //         let expectedMonth: number = date.getMonth() + value;
-//         if (expectedMonth > 11) {
+//         if (expectedMonth > 11) {  //In Date type, moth are from 0 to 11;
 //             expectedMonth = expectedMonth % 12;
 //         }
 
-// import { arrayBuffer } from "stream/consumers";
 
 //         if (expectedMonth < 0) {
 //             expectedMonth += 12;
 //         }
 
 //         date.setMonth(date.getMonth() + value);
-//         const monthToAdd: number = date.getMonth() >  expectedMonth ? -1 : 1;
-//         console.log(monthToAdd);
-//         while (date.getMonth() !== expectedMonth) {
-//             date.setMonth(date.getMonth() + monthToAdd);
-//         }
-
-//         return  date;
+// 	        const daysToAdd: number = date.getMonth() >  expectedMonth ? -1 : 1;
+// 	        while (date.getMonth() !== expectedMonth) {
+// 		        date.setDate(date.getDate() + daysToAdd);
+// 		    }
+    
+// 		    return  date;
 //     }
 // }
 
 // let date: Date = new Date();
+// date.setDate(31);
 // console.log(date);
 // DateData.addMonths(date, -4);
 // console.log(date);
+
 
 
 
